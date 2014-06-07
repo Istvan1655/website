@@ -1,0 +1,14 @@
+name: "Nicolas Endredi, informaticien"
+markdown: redcarpet
+pygments: true
+destination: /autofs/netapp/www/nendredi/
+
+domain: "nicolas.endredi.emi.u-bordeaux.fr"
+user: 
+    name:
+        last: Endredi
+        first: Nicolas
+    description: "Computing student trying quite hard to make a neat site"
+    mail: nicolas.endredi@u-bordeaux.fr
+    username:
+        github: Istvan1655
