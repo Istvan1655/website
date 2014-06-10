@@ -1,46 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ site.name }} - {% if page.title %}{{ page.title }}{% endif %}</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  {% include head.html %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/screen.css">
-
-    </head>
     <body>
 
-          <header>
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <nav>
-              <ul>
-                <li><a class="extra" href="/">home</a></li>
-              </ul>
-            </nav>
-          </header>
+    {% include header.html %}
 
-          {{ content }}
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
 
-          <footer>
-            <section class="contact">
-              <p>
-                {{ site.user.name.first }} {{ site.user.name.last }}<br />
-                {{ site.user.description }}<br />
-                <a href="mailto://{{ site.user.mail }}">Contact</a>
-              </p>
-            </section>
-            <section class="contact">
-              <p>
-                <a href="https://github.com/{{ site.username.github }}">github.com/{{ site.username.github }}</a><br />
-                <!-- <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br /> -->
-              </p>
-            </section>
-          </footer>
+    {% include footer.html %}
 
     </body>
 </html>

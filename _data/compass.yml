@@ -1,0 +1,9 @@
+---
+require:
+- jekyll-compass
+project_path: "/autofs/netapp/travail/nendredi/Projets/site_perso_jekyll/."
+http_path: "/"
+css_dir: css
+sass_dir: _sass
+images_dir: images
+javascripts_dir: javascripts

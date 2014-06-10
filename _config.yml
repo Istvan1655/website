@@ -1,14 +1,10 @@
-name: "Nicolas Endredi, informaticien"
-markdown: redcarpet
-pygments: true
-destination: /autofs/netapp/www/nendredi/
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://yourdomain.com"
 
-domain: "nicolas.endredi.emi.u-bordeaux.fr"
-user: 
-    name:
-        last: Endredi
-        first: Nicolas
-    description: "Computing student trying quite hard to make a neat site"
-    mail: nicolas.endredi@u-bordeaux.fr
-    username:
-        github: Istvan1655
+# Build settings
+markdown: kramdown
+permalink: pretty
